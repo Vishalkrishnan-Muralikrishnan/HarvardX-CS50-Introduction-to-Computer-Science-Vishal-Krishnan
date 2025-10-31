@@ -1,0 +1,24 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The Time taken to run Random50000 and sorted50000 has a wide difference of around 5 seconds.This
+                  could most probably be because the least no.of steps to sort a sorted dataset using Bubble Sort
+                  is much lower than the no.of ways to sort a Random Dataset. O(n^2) is used for max no.of steps
+                  to sort using Bubble sort but it only uses Omega(n) ways to sort a Sorted Dataset.
+
+sort2 uses: Merge Sort
+
+How do you know?: The Time taken to run Random50000 and sorted50000 has similar values.This
+                  could most probably be because the least no.of steps to sort a sorted dataset using Merge Sort
+                  is pretty much equal to the no.of ways to sort a Random Dataset. O(n Log n) is used for max no.of
+                  steps to sort using Merge Sort and also uses Omega(n Log n) ways to sort a Sorted Dataset.
+                  The reason why I chose Merge sort as Sort2 and not Selection sort is because Sort2 Uses far
+                  less time to Sort the data.
+
+sort3 uses: Selection Sort
+
+How do you know?: The Time taken to run Random50000 and sorted50000 has similar values.This
+                  could most probably be because the least no.of steps to sort a sorted dataset using Selection Sort
+                  is pretty much equal to the no.of ways to sort a Random Dataset. O(n^2) is used for max no.of
+                  steps to sort using Selection sort and also uses Omega(n^2) ways to sort a Sorted Dataset.
+                  The reason why I chose Selection sort as Sort3 and not Merge Sort is because Sort3 Uses far
+                  more time to Sort the data.
